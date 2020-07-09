@@ -12,9 +12,9 @@
 
 #include <glut/glut.h>
 
-GLBatch triangleBatch;
+GLBatch triangleBatch; // 辅助批次类，可以传输顶点/光照/纹理/颜色数据到存储着色器中
 
-GLShaderManager shaderManager;
+GLShaderManager shaderManager; //存储着色器管理
 
 
 
